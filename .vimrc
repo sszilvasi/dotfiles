@@ -1,9 +1,20 @@
-colo sorcerer
-syn on
-set ts=4
-set sts=4
-set sw=4
-set ai
-set hls
-set expandtab
+" General
+syntax on
 set cursorline
+
+" Indentaion
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set autoindent
+set expandtab
+
+" Search
+set hlsearch
+set incsearch
+set ignorecase
+set wrapscan
+
+" Status line
+set ruler
+set showcmd
